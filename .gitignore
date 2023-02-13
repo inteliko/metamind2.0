@@ -1,6 +1,4 @@
 # Logs
-.env
-node_modules
 logs
 *.log
 npm-debug.log*
@@ -10,6 +8,9 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+.env
+.gitignore
+.idea
 dist
 dist-ssr
 *.local
